@@ -20,14 +20,14 @@ import Img9 from "./assets/images/img-9.jpeg";
 
 // ====== Product Data ======
 const products = [
-  { name: "Handcrafted Vase", price: 499, image: Img0 },
-  { name: "Vintage Lamp", price: 599, image: Img3 },
-  { name: "Marble Sculpture", price: 399, image: Img4 },
-  { name: "Rustic Frame", price: 499, image: Img5 },
-  { name: "Clay Pot Set", price: 399, image: Img6 },
-  { name: "Decorative Mirror", price: 799, image: Img7 },
-  { name: "Table Centerpiece", price: 999, image: Img8 },
-  { name: "Classic Candle Stand", price: 899, image: Img9 },
+  { name: "Nail art", price: 499, image: Img0 },
+  { name: "Nail art", price: 599, image: Img3 },
+  { name: "Nail art", price: 399, image: Img4 },
+  { name: "Nail art", price: 499, image: Img5 },
+  { name: "Nail art", price: 399, image: Img6 },
+  { name: "Nail art", price: 799, image: Img7 },
+  { name: "Nail art", price: 999, image: Img8 },
+  { name: "Nail art", price: 899, image: Img9 },
 ];
 
 // ====== Icon Section Data ======
