@@ -74,11 +74,12 @@ export default function Header() {
 
 
   return (
+
     <div className="sticky top-0 left-0 w-full z-[9999] bg-[#EDE4D3] shadow-md shadow-[#e2c99c]">
       <header className="max-w-[1460px] mx-auto flex items-center justify-between px-4 md:px-8 h-[70px]">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img src={logo} alt="Logo" className="w-[60px] md:w-[80px]" />
+         <Link to="/" > <img src={logo} alt="Logo" className="w-[60px] md:w-[80px]" /> </Link>
         </div>
 
         {/* Desktop Menu */}

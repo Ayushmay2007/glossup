@@ -10,6 +10,8 @@ import { useNavigate } from "react-router-dom";
 import Img1 from "./assets/images/img-1.jpg";
 import Img2 from "./assets/images/img-2.jpg";
 import Img3 from "./assets/images/img-3.jpeg";
+import Img4 from "./assets/images/img-4.jpeg";
+import Img9 from "./assets/images/img-9.jpeg";
 import { EcommContext } from "./context/glossupcontext";
 import Header from "./commonCamponent/Header";
 
@@ -21,15 +23,15 @@ const products = [
     name: "Prason Luxury Nail Kit 💅",
     desc: "A complete premium set with tools, polishes & design accessories for salon-quality nails at home.",
     price: 899,
-    oldPrice: 1299,
+    oldPrice: 1099,
     img: Img1,
   },
   {
     id: 2,
     name: "Prason Studio Gel Kit 💎",
     desc: "Professional gel kit with UV lamp and top-quality brushes for long-lasting shine.",
-    price: 1099,
-    oldPrice: 1599,
+    price: 999,
+    oldPrice: 1299,
     img: Img2,
   },
   {
@@ -39,6 +41,22 @@ const products = [
     price: 699,
     oldPrice: 999,
     img: Img3,
+  },
+   {
+    id: 4,
+    name: "Prason preety Classic ",
+    desc: "Soft tones & smooth textures for everyday elegance with premium brushes.",
+    price: 1099,
+    oldPrice: 1399,
+    img: Img4,
+  },
+    {
+    id: 5,
+    name: "Prason preety Classic ",
+    desc: "Soft tones & smooth textures for everyday elegance with premium brushes.",
+    price: 1299,
+    oldPrice: 1599,
+    img: Img9,
   },
 ];
 
