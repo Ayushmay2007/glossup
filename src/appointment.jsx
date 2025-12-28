@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "./commonCamponent/Header";
+import Header from "./commonComponent/Header";
 
 export default function Appointment() {
   const [form, setForm] = useState({

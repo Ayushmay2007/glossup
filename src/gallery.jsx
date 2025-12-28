@@ -1,12 +1,13 @@
 import React from "react";
-import Footer from "./commonCamponent/Footer";
+import Header from "./commonComponent/Header";
+import Footer from "./commonComponent/Footer";
 import Img1 from "./assets/images/img-1.jpg";
 import Img2 from "./assets/images/img-2.jpg";
 import Img3 from "./assets/images/img-3.jpeg";
 import Img4 from "./assets/images/img-4.jpeg";
 import Img5 from "./assets/images/img-5.jpeg";
 import Img6 from "./assets/images/img-0.jpeg";
-import Header from "./commonCamponent/Header";
+
 
 export default function Gallery() {
   const images = [Img1, Img2, Img3, Img4, Img5, Img6];

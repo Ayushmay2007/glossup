@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import Header from "./commonCamponent/Header";
-import Footer from "./commonCamponent/Footer";
+import Header from "./commonComponent/Header";
+import Footer from "./commonComponent/Footer";
 
 // ====== Image Imports ======
 import Img0 from "./assets/images/img-0.jpeg";
@@ -20,46 +20,84 @@ import Img9 from "./assets/images/img-9.jpeg";
 
 // ====== Product Data ======
 const products = [
-  { name: "Nail art", price: 499, image: Img0 },
-  { name: "Nail art", price: 599, image: Img3 },
-  { name: "Nail art", price: 399, image: Img4 },
-  { name: "Nail art", price: 499, image: Img5 },
-  { name: "Nail art", price: 399, image: Img6 },
-  { name: "Nail art", price: 799, image: Img7 },
-  { name: "Nail art", price: 999, image: Img8 },
-  { name: "Nail art", price: 899, image: Img9 },
+  {
+    name: "Minimal Elegance",
+    price: 499,
+    desc: "Soft nude and blush tones with subtle detailing.",
+    image: Img0,
+  },
+  {
+    name: "Gold Accent Glam",
+    price: 599,
+    desc: "Elegant nail art with delicate gold foil accents.",
+    image: Img3,
+  },
+  {
+    name: "Bridal Luxe Art",
+    price: 399,
+    desc: "Detailed bridal nail art for weddings and engagements.",
+    image: Img4,
+  },
+  {
+    name: "Classic Pink Finish",
+    price: 499,
+    desc: "Timeless pink shades with a glossy finish.",
+    image: Img5,
+  },
+  {
+    name: "Soft Glam Nails",
+    price: 399,
+    desc: "Light shimmer and clean designs for everyday wear.",
+    image: Img6,
+  },
+  {
+    name: "Premium Party Nails",
+    price: 799,
+    desc: "Bold designs with stones and artistic detailing.",
+    image: Img7,
+  },
+  {
+    name: "Luxury Statement Nails",
+    price: 999,
+    desc: "High-end nail art with premium finishes.",
+    image: Img8,
+  },
+  {
+    name: "Designer Nail Art",
+    price: 899,
+    desc: "Custom-designed nail art with intricate details.",
+    image: Img9,
+  },
 ];
 
-// ====== Icon Section Data ======
-import { FaHandSparkles, FaPaintBrush, FaSpa, FaPumpSoap } from "react-icons/fa";
-
-
-
-
-
-
-
+// ====== Icon Section ======
+import {
+  FaHandSparkles,
+  FaPaintBrush,
+  FaSpa,
+  FaPumpSoap,
+} from "react-icons/fa";
 
 const services = [
   {
     icon: <FaHandSparkles className="text-5xl text-[#B08A52] mb-4" />,
     title: "Nail Care",
-    desc: "Professional care to keep your nails healthy, polished, and elegant.",
+    desc: "Professional care to keep your nails healthy and beautiful.",
   },
   {
     icon: <FaPaintBrush className="text-5xl text-[#B08A52] mb-4" />,
     title: "Nail Art",
-    desc: "Trendy and creative nail art that matches your unique style.",
+    desc: "Trendy and creative nail designs tailored to your style.",
   },
   {
     icon: <FaSpa className="text-5xl text-[#B08A52] mb-4" />,
     title: "Add-Ons",
-    desc: "Enhance your experience with relaxing and rejuvenating add-ons.",
+    desc: "Relaxing add-ons for a complete luxury experience.",
   },
   {
     icon: <FaPumpSoap className="text-5xl text-[#B08A52] mb-4" />,
     title: "Treatments",
-    desc: "Nourishing treatments that strengthen and restore your nails’ beauty.",
+    desc: "Nourishing treatments to strengthen and restore nails.",
   },
 ];
 
@@ -242,4 +280,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;            

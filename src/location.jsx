@@ -7,8 +7,8 @@ import {
   FaClock,
   FaEnvelope,
 } from "react-icons/fa";
-import Footer from "./commonCamponent/Footer";
-import Header from "./commonCamponent/Header";
+import Footer from "./commonComponent/Footer";
+import Header from "./commonComponent/Header";
 
 export default function Location() {
   const navigate = useNavigate();

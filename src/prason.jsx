@@ -1,8 +1,9 @@
 import React, { useContext, useEffect, useRef } from "react";
 import gsap from "gsap";
+import Header from "./commonComponent/Header";
+import Footer from "./commonComponent/Footer";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { FaShoppingCart } from "react-icons/fa";
-import Footer from "./commonCamponent/Footer";
 import toast, { Toaster } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 
@@ -13,7 +14,7 @@ import Img3 from "./assets/images/img-3.jpeg";
 import Img4 from "./assets/images/img-4.jpeg";
 import Img9 from "./assets/images/img-9.jpeg";
 import { EcommContext } from "./context/glossupcontext";
-import Header from "./commonCamponent/Header";
+
 
 gsap.registerPlugin(ScrollTrigger);
 
